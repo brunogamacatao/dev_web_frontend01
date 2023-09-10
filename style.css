@@ -1,0 +1,48 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cabecalho {
+  padding: 2em;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#cabecalho img {
+  width: 150px;
+}
+
+#cabecalho h1 {
+  font-size: 3em;
+}
+
+#conteudo {
+  display: flex;
+  flex-direction: row;
+}
+
+#menu {
+  padding: 1em;
+  border: 1px solid black;
+}
+
+#produtos{
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+
+.produto {
+  border-radius: 5px;
+  box-shadow: 5px 5px 3px 0px rgba(158,158,158,1);
+  text-align: center;
+}
+
+.produto img {
+  width: 200px;
+}
